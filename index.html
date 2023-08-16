@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+      name="viewport"
+    />
+    <title>Corentin Benoit-Gonin - kocobe.fr</title>
+    <link rel="icon" type="image/jpg" href="./avatar.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola:wght@300;400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="avatar" src="./avatar.jpg" alt="Avatar" />
+    <h1>Corentin Benoit-Gonin</h1>
+    <h2>French freelance journalist. Writes about the web and video games.</h2>
+
+    <ul>
+      <li>
+        <a
+          href="https://www.thirdeditions.com/home/569-l-anomalie-undertale-decryptage-d-un-jeu-monstre-9782377844074.html"
+        >
+          <span>
+            [Soon] L'anomalie Undertale. Décryptage d'un jeu monstre
+          </span>
+          <img class="icon" width="46" src="./icons/livre.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/Kocobe">
+          <span>Twitter</span>
+          <img class="icon" width="46" src="./icons/twitter.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://mastodon.social/@Kocobe">
+          <span>Mastodon</span>
+          <img class="icon" width="46" src="./icons/mastodon.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/kocobe.fr">
+          <span>Bluesky</span>
+          <img class="icon" width="46" src="./icons/bluesky.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.twitch.tv/kocobe">
+          <span>Kocobe - Twitch</span>
+          <img class="icon" width="46" src="./icons/twitch.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.liberation.fr/dossier/silence-on-joue/">
+          <span>Silence on joue !</span>
+          <img class="icon" width="46" src="./icons/soj.jpg" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="https://kocobe.itch.io/">
+          <span>itch.io</span>
+          <img class="icon" width="46" src="./icons/itch.png" alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="mailto:corentinbenoitgonin@gmail.com">
+          <span>Email</span>
+          <img class="icon" width="46" src="./icons/email.png" alt="" />
+        </a>
+      </li>
+    </ul>
+
+    <style type="text/css">
+      html {
+        background-color: rgb(0, 158, 255);
+        background: linear-gradient(rgb(0, 158, 255), rgb(20, 255, 236));
+        min-height: 100dvh;
+        font-family: "Capriola", sans-serif;
+        line-height: 1.5;
+        box-sizing: border-box;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .avatar {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        margin: auto;
+      }
+
+      h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 9px 0 0 0;
+      }
+
+      h2 {
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 5px 0 0 0;
+      }
+
+      body {
+        margin: 64px auto;
+        max-width: 668px;
+        width: calc(100% - 40px);
+        text-align: center;
+      }
+
+      ul {
+        margin: 31px 6px 0 -6px;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      ul a {
+        display: block;
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(158, 0, 166);
+        box-shadow: rgb(158, 0, 166) 8px 8px 0px 0px;
+        margin-bottom: 16px;
+        color: rgb(3, 0, 170);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 0 4px;
+      }
+
+      ul a span {
+        order: 1;
+        flex-grow: 1;
+        padding: 17px 60px 15px 14px;
+      }
+
+      ul a .icon {
+        order: 0;
+        flex-shrink: 0;
+        flex-grow: 0;
+        height: 46px;
+      }
+
+      ul a:hover {
+        transform: translate(4px, 4px);
+        box-shadow: rgb(158, 0, 166) 4px 4px 0px 0px;
+      }
+
+      ul a:focus-visible {
+        text-decoration: underline;
+      }
+    </style>
+  </body>
+</html>
